@@ -1,8 +1,8 @@
 # RSNA 2021
 
-### How Does AI in Medical Imaging Work? ? Learn by Creating Your Own Model 
+### How Does AI in Medical Imaging Work? Learn by Creating Your Own Model 
 
-This is a guide for the session "How Does AI in Medical Imaging Work? ? Learn by Creating Your Own Model" in the *2021 RSNA Annual Meeting*.
+This is a guide for the session "How Does AI in Medical Imaging Work? Learn by Creating Your Own Model" in the *2021 RSNA Annual Meeting*.
 
 ### Objective:
 
