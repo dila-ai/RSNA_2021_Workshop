@@ -67,7 +67,7 @@ Notice that the accuracy is not as good as one may expect from a machine learnin
 
 After training, experiment 2 should look like this:
 
-![Screenshot](https://github.com/kitamura-felipe/RSNASpotlight2021/blob/main/images/experiment2.png)
+![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/images/experiment_2.png)
 
 Notice that the accuracy seems to have improved significantly. However, a closer look at the confusion matrix shows that most of the positive cases have been misclassified as negative. This is due to the heavy class imbalance thas was simulated in this experiment (1000 normal + 30 hemorrhage).
 
