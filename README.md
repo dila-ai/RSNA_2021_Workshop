@@ -58,7 +58,7 @@ You should see multiple head CT images loaded onto the platform organized by pre
 
 After training, experiment 1 should look like this:
 
-![Screenshot](https://github.com/kitamura-felipe/RSNASpotlight2021/blob/main/images/experiment1.png)
+![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/images/experiment_1.png)
 
 Notice that the accuracy is not as good as one may expect from a machine learning model. This is due to the limited number of cases in this experiment (30 normal + 30 hemorrhage)
 
