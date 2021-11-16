@@ -75,7 +75,7 @@ Notice that the accuracy seems to have improved significantly. However, a closer
 
 After training, experiment 3 should look like this:
 
-![Screenshot](https://github.com/kitamura-felipe/RSNASpotlight2021/blob/main/images/experiment3b.png)
+![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/images/experiment_3.png)
 
 Notice that the accuracy is lower than in the last experiment. However, a closer look at the confusion matrix shows that it is indeed correctly classifying most of the positive cases, although still nor perfect. In this experiment our dataset was balanced (1000 normal + 1000 hemorrhage).
 
@@ -83,7 +83,7 @@ Notice that the accuracy is lower than in the last experiment. However, a closer
 
 After training, experiment 4 should look like this:
 
-![Screenshot](https://github.com/kitamura-felipe/RSNASpotlight2021/blob/main/images/experiment6.png)
+![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/images/experiment_4.png)
 
 In this experiment we are training a multiclass model to predict only 1 of 3 classes (normal, subdural, intraparenchymal). Because of the limited number of images in each class (80) to keep it balanced, the accuracy is not impressive. Now let's compare it to experiment 5 (next step).
 
