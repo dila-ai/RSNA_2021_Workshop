@@ -42,7 +42,7 @@ Although there is this variability in the training phase, after we finish traini
 
 You should see this website:
 
-![Screenshot](https://github.com/kitamura-felipe/RSNASpotlight2021/blob/main/images/image04.png)
+![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/images/image_1.png)
 
 #### Step 3: Click on the left upper corner to open the menu and then click on "Open project from file" as below:
 
