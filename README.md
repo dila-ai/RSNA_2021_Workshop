@@ -94,6 +94,7 @@ In this experiment we are training a multiclass model to predict only 1 of 3 cla
 
 After training, experiment 5 should look like this:
 
-![Screenshot](https://github.com/kitamura-felipe/RSNASpotlight2021/blob/main/images/experiment7.png)
+![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/images/experiment_5.png)
+
 
 In this experiment we are also training a multiclass model with 3 classes (normal, subdural, intraparenchymal). Because of the preprocessing step done to color-code the bleedings, the model is able to achieve a significantly higher accuracy. This color-coding was done by assigning the red color to voxels that where within a certaing range of Hounsfield Units. Although this simple thresholding rule is not perfectly accurate to identify bleedings, it helps the model achieve a better result.
