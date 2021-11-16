@@ -88,7 +88,7 @@ After training, experiment 4 should look like this:
 _**INSERT TEXT HERE**_
 
 
-#### Step 9: Repeat steps 3 to 5, but now load the [file for Experiment 5 here](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/TM/experiment_5.tm?raw=true)
+#### Step 9: Repeat steps 3 to 5, but now load the [file for Experiment 5 here](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/tm/experiment5.tm?raw=true)
 
 After training, experiment 5 should look like this:
 
