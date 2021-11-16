@@ -38,7 +38,7 @@ Although there is this variability in the training phase, after we finish traini
 
 #### Step 1: Download the [file for Experiment 1 here](https://github.com/kitamura-felipe/RSNASpotlight2021/blob/main/experiments/experiment1.tm?raw=true) and save it somewhere you can find it later.
 
-#### Step 2: Right click on the [teachable machine link here](https://teachablemachine.withgoogle.com/train/image) and choose "Open in a new tab" (or hold CTRL key + left mouse click)
+#### Step 2: Right click on the [Teachable Machine link here](https://teachablemachine.withgoogle.com/train/image) and choose "Open in a new tab" (or hold CTRL key + left mouse click)
 
 You should see this website:
 
