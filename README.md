@@ -79,7 +79,7 @@ After training, experiment 3 should look like this:
 
 Notice that the accuracy is lower than in the last experiment. However, a closer look at the confusion matrix shows that it is indeed correctly classifying most of the positive cases, although still nor perfect. In this experiment our dataset was balanced (1000 normal + 1000 hemorrhage).
 
-#### Step 8: Repeat steps 3 to 5, but now load the [file for Experiment 4 here](https://github.com/kitamura-felipe/RSNASpotlight2021/blob/main/experiments/experiment4.tm?raw=true)
+#### Step 8: Change the number of Epochs to 75 and click Model Trained.
 
 After training, experiment 4 should look like this:
 
