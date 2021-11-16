@@ -81,9 +81,12 @@ Notice that the accuracy is lower than in the last experiment. However, a closer
 
 #### Step 8: Change the number of Epochs to 75 and click Model Trained.
 
+![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/images/experiment_4.png)
+
 After training, experiment 4 should look like this:
 
-![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/images/experiment_4.png)
+**INSERT TEXT HERE**
+
 
 In this experiment we are training a multiclass model to predict only 1 of 3 classes (normal, subdural, intraparenchymal). Because of the limited number of images in each class (80) to keep it balanced, the accuracy is not impressive. Now let's compare it to experiment 5 (next step).
 
