@@ -69,7 +69,7 @@ After training, experiment 2 should look like this:
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/images/experiment_2.png)
 
-Notice that the accuracy seems to have improved significantly. However, a closer look at the confusion matrix shows that most of the positive cases have been misclassified as negative. This is due to the heavy class imbalance thas was simulated in this experiment (1000 normal + 30 hemorrhage).
+Notice that the accuracy seems to have improved significantly. However, a closer look at the confusion matrix shows that all of the positive cases have been misclassified as negative. This is due to the heavy class imbalance thas was simulated in this experiment (1000 normal + 30 hemorrhage).
 
 #### Step 7: Repeat steps 3 to 5, but now load the [file for Experiment 3 here](https://github.com/kitamura-felipe/RSNASpotlight2021/blob/main/experiments/experiment3.tm?raw=true)
 
