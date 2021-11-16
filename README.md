@@ -54,7 +54,7 @@ You should see multiple head CT images loaded onto the platform organized by pre
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/images/image_3.png)
 
-#### Step 5: Click on train and wait for it to finish. It may take a while for the training to start.
+#### Step 5: Click on Advanced and Under the Hood. Following this, click Train and wait for it to finish. It may take a while for the training to start.
 
 After training, experiment 1 should look like this:
 
