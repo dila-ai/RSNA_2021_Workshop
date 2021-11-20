@@ -67,6 +67,10 @@ After training, experiment 1 should look like this:
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_6.png?)
 
+#### Step 7: Click Calculate Accuracy per Class Train and Calculate confusion matrix.
+
+![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_7.png?)
+
 Notice that the accuracy is not as good as one may expect from a machine learning model. This is due to the limited number of cases in this experiment (30 normal + 30 hemorrhage)
 
 
