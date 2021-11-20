@@ -63,7 +63,7 @@ You should see multiple head CT images loaded onto the platform organized by pre
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_5.png?)
 
 
-After training, experiment 1 should look like this:
+After training, **Experiment 1** should look like this:
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_6.png?)
 
@@ -77,7 +77,7 @@ Notice that the accuracy is not as good as one may expect from a machine learnin
 
 #### Step 6: Repeat steps 3 to 5, but now load the [file for Experiment 2 here](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_2.tm?raw=true)
 
-After training, experiment 2 should look like this:
+After training, **Experiment 2** should look like this:
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_2_1.png?)
 
@@ -85,7 +85,7 @@ Notice that the accuracy seems to have improved significantly. However, a closer
 
 #### Step 7: Repeat steps 3 to 5, but now load the [file for Experiment 3 here](https://github.com/kitamura-felipe/RSNASpotlight2021/blob/main/experiments/experiment3.tm?raw=true)
 
-After training, experiment 3 should look like this:
+After training, **Experiment 3** should look like this:
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_3_1.png?)
 
@@ -93,16 +93,16 @@ Notice that the accuracy is lower than in the last experiment. However, a closer
 
 #### Step 8: Change the number of Epochs to 75. Click Model Trained to retrain the model.
 
-![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_4_1.png?)
+After training, **Experiment 4** should look like this:
 
-After training, experiment 4 should look like this:
+![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_4_1.png?)
 
 _**INSERT TEXT HERE**_
 
 
 #### Step 9: Repeat steps 3 to 5, but now load the [file for Experiment 5 here](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/TM/experiment5.tm?raw=true)
 
-After training, experiment 5 should look like this:
+After training, **Experiment 5** should look like this:
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/images/experiment_5_new.png)
 
