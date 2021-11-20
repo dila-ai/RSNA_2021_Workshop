@@ -97,8 +97,7 @@ After training, **Experiment 4** should look like this:
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_4_1.png?)
 
-Accuracy appears to be improving for the training set with a greater number of epochs. However, this trend is not observed with the test set. In fact, accuracy in hemorrhage detection has decreased when compared to Experiment 3.
-  
+Accuracy appears to be improving for the training set with a greater number of epochs. However, this trend is not observed with the test set. In fact, accuracy in hemorrhage detection has decreased when compared to Experiment 3. The trained model does not generalize well from our training data to the unseen data in the test set.
   
 If we repeat the same exercise with 250 epochs, results would look similar to this: 
 
