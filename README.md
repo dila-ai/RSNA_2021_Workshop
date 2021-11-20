@@ -46,13 +46,15 @@ You should see this website:
 
 #### Step 3: Click on the left upper corner to open the menu and then click on "Open project from file" as below:
 
-![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/images/img_2.png)
+![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_2.png)
 
 #### Step 4: Upload the file from Experiment 1 (Step 1) and wait for it to load.
 
+![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_3.png)
+
 You should see multiple head CT images loaded onto the platform organized by presence or absence of hemorrhage:
 
-![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/images/img_3.png)
+![Screenshot](![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_4.png))
 
 #### Step 5: Click on Advanced and Under the Hood. Following this, click Train and wait for it to finish. It may take a while for the training to start.
 
