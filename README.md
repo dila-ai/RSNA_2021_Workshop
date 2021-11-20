@@ -54,7 +54,7 @@ You should see this website:
 
 You should see multiple head CT images loaded onto the platform organized by presence or absence of hemorrhage:
 
-![Screenshot](![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_4.png))
+![Screenshot](![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_4.png)
 
 #### Step 5: Click on Advanced and Under the Hood. Following this, click Train and wait for it to finish. It may take a while for the training to start.
 
