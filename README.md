@@ -97,7 +97,7 @@ After training, **Experiment 4** should look like this:
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_4_1.png?)
 
-If we repeat the same exercise with 250 epochs, results would look similar ot this: 
+If we repeat the same exercise with 250 epochs, results would look similar to this: 
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_4_2.png?)
 
