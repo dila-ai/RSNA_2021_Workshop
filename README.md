@@ -97,11 +97,13 @@ After training, **Experiment 4** should look like this:
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_4_1.png?)
 
+Accuracy appears to be improving for the training set with a greater number of epochs. However, this trend is not observed with the test set. In fact, accuracy in hemorrhage detection has decreased when compared to Experiment 3.
+  
+  
 If we repeat the same exercise with 250 epochs, results would look similar to this: 
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_4_2.png?)
 
-_**INSERT TEXT HERE**_
 
 
 #### Step 9: Repeat steps 3 to 5, but now load the [file for Experiment 5 here](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_5.tm?raw=true)
