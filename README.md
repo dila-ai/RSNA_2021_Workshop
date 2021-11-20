@@ -91,13 +91,13 @@ After training, **Experiment 3** should look like this:
 
 Notice that the accuracy is lower than in the last experiment. However, a closer look at the confusion matrix shows that it is indeed correctly classifying most of the positive cases, although still nor perfect. In this experiment our dataset was balanced (1000 normal + 1000 hemorrhage).
 
-#### Step 8: Change the number of Epochs to 100. Click "Model Trained" to retrain the model.
+#### Step 8: Change the number of Epochs to 75. Click "Model Trained" to retrain the model.
 
 After training, **Experiment 4** should look like this:
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_4_1.png?)
 
-If we repeat the same exercise with 250 epochs, results would look similar to this: 
+If we repeat the same exercise with 500 epochs, results would look similar to this: 
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_4_2.png?)
 
