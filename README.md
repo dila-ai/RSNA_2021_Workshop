@@ -73,6 +73,7 @@ After training, experiment 1 should look like this:
 
 Notice that the accuracy is not as good as one may expect from a machine learning model. This is due to the limited number of cases in this experiment (30 normal + 30 hemorrhage)
 
+![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_8.png?)
 
 #### Step 6: Repeat steps 3 to 5, but now load the [file for Experiment 2 here](https://github.com/kitamura-felipe/RSNASpotlight2021/blob/main/experiments/experiment2.tm?raw=true)
 
