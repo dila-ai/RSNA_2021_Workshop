@@ -54,11 +54,11 @@ You should see this website:
 
 You should see multiple head CT images loaded onto the platform organized by presence or absence of hemorrhage:
 
-#### Step 5: Click on Advanced and Under the Hood.
+#### Step 5: Click on "Advanced" and "Under the Hood".
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_4.png?)
 
-#### Step 6: Click Train and wait for it to finish. It may take a while for the training to start.
+#### Step 6: Click "Train" and wait for it to finish. It may take a while for the training to start.
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_5.png?)
 
@@ -67,7 +67,7 @@ After training, experiment 1 should look like this:
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_6.png?)
 
-#### Step 7: Click Calculate Accuracy per Class Train and Calculate confusion matrix.
+#### Step 7: Click "Calculate Accuracy per class" and "Calculate confusion matrix".
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_7.png?)
 
