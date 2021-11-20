@@ -104,6 +104,7 @@ If we repeat the same exercise with 250 epochs, results would look similar to th
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_4_2.png?)
 
+The model has clearly overfit to the training data. In essence, it has memorized the training set including noise.
 
 
 #### Step 9: Repeat steps 3 to 5, but now load the [file for Experiment 5 here](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_5.tm?raw=true)
