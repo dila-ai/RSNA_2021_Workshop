@@ -42,30 +42,30 @@ Although there is this variability in the training phase, after we finish traini
 
 You should see this website:
 
-![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_1.png)
+![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_1.png?)
 
 #### Step 3: Click on the left upper corner to open the menu and then click on "Open project from file" as below:
 
-![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_2.png)
+![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_2.png?)
 
 #### Step 4: Upload the file from Experiment 1 (Step 1) and wait for it to load.
 
-![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_3.png)
+![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_3.png?)
 
 You should see multiple head CT images loaded onto the platform organized by presence or absence of hemorrhage:
 
 #### Step 5: Click on Advanced and Under the Hood.
 
-![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_4.png)
+![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_4.png?)
 
 #### Step 6: Click Train and wait for it to finish. It may take a while for the training to start.
 
-![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_5.png)
+![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_5.png?)
 
 
 After training, experiment 1 should look like this:
 
-![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_6.png)
+![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_6.png?)
 
 Notice that the accuracy is not as good as one may expect from a machine learning model. This is due to the limited number of cases in this experiment (30 normal + 30 hemorrhage)
 
