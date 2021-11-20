@@ -83,7 +83,7 @@ After training, **Experiment 2** should look like this:
 
 Notice that the accuracy seems to have improved significantly. However, a closer look at the confusion matrix shows that all of the positive cases have been misclassified as negative. This is due to the heavy class imbalance thas was simulated in this experiment (1000 normal + 30 hemorrhage).
 
-#### Step 7: Repeat steps 3 to 5, but now load the [file for Experiment 3 here](https://github.com/kitamura-felipe/RSNASpotlight2021/blob/main/experiments/experiment3.tm?raw=true)
+#### Step 7: Repeat steps 3 to 5, but now load the [file for Experiment 3 here](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_3.tm?raw=true)
 
 After training, **Experiment 3** should look like this:
 
@@ -91,19 +91,23 @@ After training, **Experiment 3** should look like this:
 
 Notice that the accuracy is lower than in the last experiment. However, a closer look at the confusion matrix shows that it is indeed correctly classifying most of the positive cases, although still nor perfect. In this experiment our dataset was balanced (1000 normal + 1000 hemorrhage).
 
-#### Step 8: Change the number of Epochs to 75. Click Model Trained to retrain the model.
+#### Step 8: Change the number of Epochs to 100. Click "Model Trained" to retrain the model.
 
 After training, **Experiment 4** should look like this:
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_4_1.png?)
 
+If we repeat the same exercise with 250 epochs, results would look similar ot this: 
+
+![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_4_2.png?)
+
 _**INSERT TEXT HERE**_
 
 
-#### Step 9: Repeat steps 3 to 5, but now load the [file for Experiment 5 here](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/TM/experiment5.tm?raw=true)
+#### Step 9: Repeat steps 3 to 5, but now load the [file for Experiment 5 here](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_5.tm?raw=true)
 
 After training, **Experiment 5** should look like this:
 
-![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/images/experiment_5_new.png)
+![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_5_1.png?)
 
 In this experiment we are able to show that the preprocessing step done to color-code the areas of intracranial hemorrhage, the model is able to achieve a significantly higher accuracy. This color-coding was done programmatically by assigning the red color to voxels that were within a certaing range of Hounsfield Units. Although this simple thresholding rule is not perfectly accurate to identify hemorrhage, it helps the model achieve a better result. More accurate segmentation of hemorrhage could be performed  manually but this is often a labour intensive and time consuming process.
