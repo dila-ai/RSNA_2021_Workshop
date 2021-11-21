@@ -77,7 +77,7 @@ Notice that the accuracy is not as good as one may expect from a machine learnin
 
 You can test the model you trained with same images. Download [normal images](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/normal.zip?raw=true) and [images with ICH](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/ich.zip?raw=true).
 
-Change Input to ON and select File.
+Change "Input to ON" and select "File".
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_9.png?)
 
