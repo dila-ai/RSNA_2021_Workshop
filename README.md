@@ -111,13 +111,12 @@ After training, **Experiment 4** should look like this:
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_4_1.png?)
 
-Accuracy appears to be improving for the training set with a greater number of epochs. However, this trend is not observed with the test set. In fact, accuracy in hemorrhage detection has decreased when compared to Experiment 3. The trained model does not generalize well from our training data to the unseen data in the test set.
-  
-If we repeat the same exercise with 250 epochs, results would look similar to this: 
+Accuracy appears to be improving for the training set with a greater number of epochs. However, the accuracy of the test set levels off and remains constant with further epochs. In fact, accuracy in hemorrhage detection has decreased when compared to Experiment 3. The appearance of the loss and accuracy graph is typical of a overfitted model. In other words, the trained model does not generalize well from our training data to the unseen data in the test set.
+
+
+If we repeat the same exercise with 250 epochs, there is further divergence of the accuracy and loss scores. An overfit model has in essence memorized the train dataset including its biases and noise. 
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_4_2.png?)
-
-The model has clearly overfit to the training data. In essence, it has memorized the training set including noise.
 
 
 #### Step 9: Repeat steps 3 to 5, but now load the [file for Experiment 5 here](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_5.tm?raw=true)
