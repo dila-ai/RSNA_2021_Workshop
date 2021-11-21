@@ -75,6 +75,12 @@ Notice that the accuracy is not as good as one may expect from a machine learnin
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_8.png?)
 
+![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_9.png?)
+
+![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_10.png?)
+
+![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_11.png?)
+
 #### Step 6: Repeat steps 3 to 5, but now load the [file for Experiment 2 here](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_2.tm?raw=true)
 
 After training, **Experiment 2** should look like this:
