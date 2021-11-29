@@ -30,9 +30,9 @@ This session used a subset of the 2019 RSNA Intracranial Hemorrhage Dataset. The
 
 Reference: https://towardsdatascience.com/a-visual-explanation-of-gradient-descent-methods-momentum-adagrad-rmsprop-adam-f898b102325c
 
-The path our algorithm will go through in the loss landscape during the learning process is dependent on several factors. The learning rate is one of them, as well as the order we present our images to the model during the training process. The initial weights of the model determine the starting point in the loss landscape. These are some of the many reasons why the training process can be different if rerun in other machines. It also means you could get different results than the ones shown here if you run these experiments in your computer. 
+The path our algorithm will go through in the loss landscape during the learning process is dependent on several factors. Learning rate is one of them, as well as the order we present our images to the model during the training process. The initial weights of the model determine the starting point in the loss landscape. These are some of the many reasons why the training process can be different if rerun in other machines. It also means you could get different results than the ones shown here if you run these experiments in your computer. 
 
-Although there is this variability in the training phase, after we finish training you should expect to get always the same results for a given test set.
+Although there is this variability in the training phase, after we finish training you should expect to always get the same results for a given test set.
 
 ### Instructions:
 
@@ -89,15 +89,15 @@ The model output will be displayed under the head CT image.
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_11.png?)
 
-#### Step 6: Repeat steps 3 to 5, but now load the [file for Experiment 2 here](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_2.tm?raw=true)
+#### Step 8: Repeat steps 3 to 5, but now load the [file for Experiment 2 here](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_2.tm?raw=true)
 
 After training, **Experiment 2** should look like this:
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_2_1.png?)
 
-Notice that the accuracy seems to have improved significantly. However, a closer look at the confusion matrix shows that all of the positive cases have been misclassified as negative. This is due to the heavy class imbalance thas was simulated in this experiment (1000 normal + 30 hemorrhage).
+Notice that the accuracy seems to have improved significantly. However, a closer look at the confusion matrix shows that all the positive cases have been misclassified as negative. This is due to the heavy class imbalance that was simulated in this experiment (1000 normal + 30 hemorrhage).
 
-#### Step 7: Repeat steps 3 to 5, but now load the [file for Experiment 3 here](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_3.tm?raw=true)
+#### Step 9: Repeat steps 3 to 5, but now load the [file for Experiment 3 here](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_3.tm?raw=true)
 
 After training, **Experiment 3** should look like this:
 
@@ -105,13 +105,13 @@ After training, **Experiment 3** should look like this:
 
 Notice that the accuracy is lower than in the last experiment. However, a closer look at the confusion matrix shows that it is indeed correctly classifying most of the positive cases, although still nor perfect. In this experiment our dataset was balanced (1000 normal + 1000 hemorrhage).
 
-#### Step 8: Change the number of Epochs to 75. Click "Model Trained" to retrain the model.
+#### Step 10: Change the number of Epochs to 75. Click "Model Trained" to retrain the model.
 
 After training, **Experiment 4** should look like this:
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_4_1.png?)
 
-Accuracy appears to be improving for the training set with a greater number of epochs. However, the accuracy of the test set levels off and remains constant with further epochs. In fact, accuracy in hemorrhage detection has decreased when compared to Experiment 3. The appearance of the loss and accuracy graph is typical of a overfitted model. In other words, the trained model does not generalize well from our training data to the unseen data in the test set.
+Accuracy appears to be improving for the training set with a greater number of epochs. However, the accuracy of the test set levels off and remains constant with further epochs. In fact, accuracy in hemorrhage detection has decreased when compared to Experiment 3. The appearance of the loss and accuracy graph is typical of an overfitted model. In other words, the trained model does not generalize well from our training data to the unseen data in the test set.
 
 
 If we repeat the same exercise with 250 epochs, there is further divergence of the accuracy and loss scores. An overfit model has in essence memorized the train dataset including its biases and noise. 
@@ -119,10 +119,10 @@ If we repeat the same exercise with 250 epochs, there is further divergence of t
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_4_2.png?)
 
 
-#### Step 9: Repeat steps 3 to 5, but now load the [file for Experiment 5 here](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_5.tm?raw=true)
+#### Step 11: Repeat steps 3 to 5, but now load the [file for Experiment 5 here](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_5.tm?raw=true)
 
 After training, **Experiment 5** should look like this:
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_5_1.png?)
 
-In this experiment we are able to show that the preprocessing step done to color-code the areas of intracranial hemorrhage, the model is able to achieve a significantly higher accuracy. This color-coding was done programmatically by assigning the red color to voxels that were within a certaing range of Hounsfield Units. Although this simple thresholding rule is not perfectly accurate to identify hemorrhage, it helps the model achieve a better result. More accurate segmentation of hemorrhage could be performed  manually but this is often a labour intensive and time consuming process.
+In this experiment we can show that the preprocessing step done to color-code the areas of intracranial hemorrhage, allows the model to achieve a significantly higher accuracy. This color-coding was done programmatically by assigning the red color to voxels that were within a certain range of Hounsfield Units. Although this simple thresholding rule is not perfectly accurate to identify hemorrhage, it helps the model achieve a better result. More accurate segmentation of hemorrhage could be performed  manually but this is often a labour intensive and time consuming process.
