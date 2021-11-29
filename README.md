@@ -89,7 +89,7 @@ The model output will be displayed under the head CT image.
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_11.png?)
 
-#### Step 8: Repeat steps 3 to 5, but now load the [file for Experiment 2 here](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_2.tm?raw=true)
+#### Step 8: Repeat steps 3 to 7, but now load the [file for Experiment 2 here](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_2.tm?raw=true)
 
 After training, **Experiment 2** should look like this:
 
@@ -97,7 +97,7 @@ After training, **Experiment 2** should look like this:
 
 Notice that the accuracy seems to have improved significantly. However, a closer look at the confusion matrix shows that all the positive cases have been misclassified as negative. This is due to the heavy class imbalance that was simulated in this experiment (1000 normal + 30 hemorrhage).
 
-#### Step 9: Repeat steps 3 to 5, but now load the [file for Experiment 3 here](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_3.tm?raw=true)
+#### Step 9: Repeat steps 3 to 7, but now load the [file for Experiment 3 here](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_3.tm?raw=true)
 
 After training, **Experiment 3** should look like this:
 
@@ -105,7 +105,7 @@ After training, **Experiment 3** should look like this:
 
 Notice that the accuracy is lower than in the last experiment. However, a closer look at the confusion matrix shows that it is indeed correctly classifying most of the positive cases, although still nor perfect. In this experiment our dataset was balanced (1000 normal + 1000 hemorrhage).
 
-#### Step 10: Change the number of Epochs to 75. Click "Model Trained" to retrain the model.
+#### Step 10: Change the number of Epochs to 75. Click "Model Trained" to retrain the model. Repeat Step 7.
 
 After training, **Experiment 4** should look like this:
 
@@ -119,7 +119,7 @@ If we repeat the same exercise with 250 epochs, there is further divergence of t
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_4_2.png?)
 
 
-#### Step 11: Repeat steps 3 to 5, but now load the [file for Experiment 5 here](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_5.tm?raw=true)
+#### Step 11: Repeat steps 3 to 6, but now load the [file for Experiment 5 here](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_5.tm?raw=true)
 
 After training, **Experiment 5** should look like this:
 
