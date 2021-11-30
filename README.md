@@ -44,8 +44,6 @@ Although there is this variability in the training phase, after we finish traini
 
 [Experiment 3](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_3.tm?raw=true) 
 
-[Experiment 4](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_4.tm?raw=true) 
-
 [Experiment 5](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_5.tm?raw=true) 
 
 
