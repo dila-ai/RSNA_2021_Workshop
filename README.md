@@ -36,7 +36,13 @@ Although there is this variability in the training phase, after we finish traini
 
 ### Instructions:
 
-#### Step 1: Download the [file for Experiment 1 here](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_1.tm?raw=true) and save it somewhere you can find it later.
+#### Step 1: Download the dataset files for each experiment and save it somewhere you can find it later. 
+
+[Experiment 1]  (https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_1.tm?raw=true) 
+[Experiment 2]  (https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_2.tm?raw=true) 
+[Experiment 3]  (https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_3.tm?raw=true) 
+[Experiment 4]  (https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_4.tm?raw=true) 
+[Experiment 5]  (https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_5.tm?raw=true) 
 
 #### Step 2: Right click on the [Teachable Machine link here](https://teachablemachine.withgoogle.com/train/image) and choose "Open in a new tab" (or hold CTRL key + left mouse click)
 
@@ -89,7 +95,7 @@ The model output will be displayed under the head CT image.
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_11.png?)
 
-#### Step 8: Repeat steps 3 to 7, but now load the [file for Experiment 2 here](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_2.tm?raw=true)
+#### Step 8: Repeat steps 3 to 7, but now load the file for Experiment 2
 
 After training, **Experiment 2** should look like this:
 
@@ -97,7 +103,7 @@ After training, **Experiment 2** should look like this:
 
 Notice that the accuracy seems to have improved significantly. However, a closer look at the confusion matrix shows that all the positive cases have been misclassified as negative. This is due to the heavy class imbalance that was simulated in this experiment (1000 normal + 30 hemorrhage).
 
-#### Step 9: Repeat steps 3 to 7, but now load the [file for Experiment 3 here](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_3.tm?raw=true)
+#### Step 9: Repeat steps 3 to 7, but now load the file for Experiment 3
 
 After training, **Experiment 3** should look like this:
 
@@ -119,7 +125,7 @@ If we repeat the same exercise with 250 epochs, there is further divergence of t
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_4_2.png?)
 
 
-#### Step 11: Repeat steps 3 to 6, but now load the [file for Experiment 5 here](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_5.tm?raw=true)
+#### Step 11: Repeat steps 3 to 6, but now load the file for Experiment 5
 
 After training, **Experiment 5** should look like this:
 
