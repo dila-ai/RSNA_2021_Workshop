@@ -57,7 +57,7 @@ You should see this website:
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_2.png?)
 
-#### Step 4: Upload the file from Experiment 1 (Step 1) and wait for it to load.
+#### Step 4: Upload the file from Experiment 1 and wait for it to load.
 
 ![Screenshot](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/img/img_1_3.png?)
 
