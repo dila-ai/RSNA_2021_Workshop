@@ -39,10 +39,15 @@ Although there is this variability in the training phase, after we finish traini
 #### Step 1: Download the dataset files for each experiment and save it somewhere you can find it later. 
 
 [Experiment 1](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_1.tm?raw=true) 
+
 [Experiment 2](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_2.tm?raw=true) 
+
 [Experiment 3](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_3.tm?raw=true) 
+
 [Experiment 4](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_4.tm?raw=true) 
+
 [Experiment 5](https://github.com/dila-ai/RSNA_2021_Workshop/blob/main/exp/exp_5.tm?raw=true) 
+
 
 #### Step 2: Right click on the [Teachable Machine link here](https://teachablemachine.withgoogle.com/train/image) and choose "Open in a new tab" (or hold CTRL key + left mouse click)
 
